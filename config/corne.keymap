@@ -27,7 +27,7 @@
 //                   | GUI | SHFT | SPC |                  | ENT |     | L3  |
                         bindings = <
    &kp TAB   &kp N1   &kp N2    &kp N3    &kp N4   &kp N5       &none    &kp PG_DN &kp PG_UP &none     &none  &kp ESC
-   &kp LCTRL  &kp N6   &kp N7    &kp N8    &kp N9   &kp N0       &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp GRAVE
+   &kp LCTRL  &kp N6   &kp N7    &kp N8    &kp N9   &kp N0      &none   &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp GRAVE
    &kp LSHFT &kp BSLH &kp MINUS &kp EQUAL &kp LBKT &kp RBKT     &trans &none    &none     &trans    &trans    &trans &kp RET
                              &kp LALT   &kp LCMD  &kp SPACE    &kp BSPC  &trans    &mo 3
                         >;
