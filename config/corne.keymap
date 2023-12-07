@@ -38,13 +38,12 @@
 // |     |  @  |  #  |  $  |  %   |  !  |                  | BT1 | BT2  | BT3  | BT4  | BT5 | BTC  |
 // |     |  ^  |  &  |  *  |  (   |  )  |                  |     |  prv | vol- | vol+ | nxt |      |
 // |     |     |     |     |      |     |                  |     |      | br-  | br+  |     | play |
-//                   | GUI | SHFT | SPC |                  | ENT | L3   |      |
-                        bindings = <
-   &none      &kp EXCL   &kp AT   &kp HASH   &kp DLLR  &kp PRCNT       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-   &kp LALT   &kp CARET  &kp AMP  &kp ASTRK  &kp LPAR  &kp RPAR        &none         &kp C_PREV    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &none
-   &kp LSHFT  &none       &none   &none      &none     &none           &none         &none         &kp C_BRI_DN  &kp C_BRI_UP  &none         &kp C_PP
-                                  &kp LCTRL  &kp LCMD  &kp SPACE       &kp BSPC      &mo 3         &trans
-                        >;
+                bindings = <
+&none      &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PRCNT       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&kp LALT   &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR        &none         &kp C_PREV    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &none
+&kp LSHFT  &none      &none     &none      &none     &none           &none         &none         &kp C_BRI_DN  &kp C_BRI_UP  &none         &kp C_PP
+                                &kp LCTRL  &kp LCMD  &kp SPACE       &kp BSPC      &mo 3         &trans
+                >;
                 };
 
                 l3 {
