@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker buildx build --output type=local,dest=./artifacts ./build
+docker buildx build --output type=local,dest=./artifacts .
